@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    background-color: #1E1E1E;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.no-space {
+    padding: 0;
+    margin: 0;
+}
+
+.bar-item {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.icon {
+    display: none;
+    float: right;
+}
+
+.responsive {
+    position: relative;
+}
+
+.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+.top-pad {
+    padding-top: 1em;
+}
+
+.bar {
+    background-color: rgba(60, 60, 60, 0.5);
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.bgimg-1 {
+    background-image: url('../../images/coffee_mac.jpg');
+    min-height: 100%;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-2 {
+    background-image: url('../../images/background-projects.jpg');
+    min-height: 25em;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-3 {
+    background-image: url('../../images/csulb.jpg');
+    min-height: 25em;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome {
+    font-size: 3rem;
+    color: black;
+    padding: 3px 24px;
+}
+
+.home {
+    top: 40%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.middle-strip {
+    top: 40%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/*Puts background color when hovering over bar buttons*/
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.experience {
+    background-color: white;
+    padding: 64 16;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+}
+
+table .left {
+    padding-left: 5em;
+}
+
+td {
+    padding-top: 2em;
+    padding-right: 1em;
+    width: 50%;
+}
+
+.projects {
+    background-color: white;
+    padding-top: 64;
+    padding-bottom: 64;
+}
+
+.education {
+    padding: 64 16;
+    background-color: white;
+    display: grid;
+}
+
+.education caption {
+    text-align: left;
+    font-weight: bold;
+}
+
+.education h3 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.education h4 {
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.education-title {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    top: 40%;
+    width: 100%;
+}
+
+.font {
+    font-family: 'Raleway', serif;
+}
